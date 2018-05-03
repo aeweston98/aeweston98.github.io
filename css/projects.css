@@ -1,13 +1,13 @@
 ul.topnav {
-    margin-right: 300px;
-    margin-left: 300px;
+    margin-right: 5%;
+    margin-left: 5%;
     padding:0;
     list-style:none;
     text-align:center;
 }
 .topnav li { 
     display:inline-block;
-    width:20%;
+  
     margin:0;
     padding:0;
 }
@@ -17,7 +17,7 @@ ul.topnav {
     margin:0 auto;
     color: rgb(6, 132, 216);
     text-align: center;
-    padding: 14px 16px;
+    padding: 30px;
     text-decoration: none;
     font-size: 17px;
 }
@@ -27,7 +27,7 @@ ul.topnav {
 }
 
 .topnav a.active {
-    font-weight: bold;
+    color: rgb(2, 94, 244);
 }
 
 body {
@@ -72,10 +72,13 @@ button {
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
+    width: 76%;
     padding: 0 18px;
     background-color: white;
     display: none;
     overflow: hidden;
+    margin-left:12%;
+    margin-right:12%;
 }
 
 .accordion:after {

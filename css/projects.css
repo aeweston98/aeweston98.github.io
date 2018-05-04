@@ -89,4 +89,33 @@ button {
     margin-left: 5px;
 }
 
+.block p {
+    width: 80%;
+    margin-left:10%;
+    margin-right:10%;
+        margin-top:8px;
+    padding: 0 18px;
+    background-color: white;
+    font-size: 17px;
 
+}
+
+.block h3 {
+    width: 80%;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:0px;
+    margin-bottom:8px;
+    padding: 0 18px;
+    background-color: white;
+}
+
+.block h4 {
+    width: 80%;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:8px;
+        margin-bottom:8px;
+    padding: 0 18px;
+    background-color: white;
+}

@@ -1,7 +1,7 @@
 body {
     background-color: white;
-    font-family: georgia;
-    color: rgb(6, 132, 216);
+    font-family: arial;
+    color: black;
 }
 
 h1 {
@@ -47,7 +47,7 @@ ul.topnav {
 .topnav a {
 	width:100%;
 	margin:0 auto;
-    color: rgb(6, 132, 216);
+    color: black;
     text-align: center;
     padding: 30px;
     text-decoration: none;
@@ -55,9 +55,9 @@ ul.topnav {
 }
 
 .topnav a:hover {
-	color: rgb(2, 94, 244);
+	color: rgb(14,68,183);
 }
 
 .topnav a.active {
-    color: rgb(2, 94, 244);
+    color: rgb(14,68,183);
 }

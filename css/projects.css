@@ -15,7 +15,7 @@ ul.topnav {
 .topnav a {
     width:100%;
     margin:0 auto;
-    color: rgb(6, 132, 216);
+    color: black;
     text-align: center;
     padding: 30px;
     text-decoration: none;
@@ -23,17 +23,17 @@ ul.topnav {
 }
 
 .topnav a:hover {
-    color: rgb(2, 94, 244);
+    color: rgb(14,68,183);
 }
 
 .topnav a.active {
-    color: rgb(2, 94, 244);
+    color: rgb(14,68,183);
 }
 
 body {
     background-color: white;
-    font-family: georgia;
-    color: rgb(6, 132, 216);
+    font-family: arial;
+    color: black;
 }
 
 h1 {
@@ -52,7 +52,7 @@ p {
 button {
     font-family: georgia;
     font-size: 20px;
-    color: rgb(6, 132, 216);
+    color: black;
 }
 .accordion {
     cursor: pointer;
@@ -67,7 +67,7 @@ button {
 }
 
 .accordion:hover {
-    color: rgb(2, 94, 244);
+    color: blue;
 }
 
 /* Style the accordion panel. Note: hidden by default */
@@ -84,7 +84,7 @@ button {
 .accordion:after {
     content: '\02795'; /* Unicode character for "plus" sign (+) */
     font-size: 13px;
-    color: rgb(6, 132, 216);
+    color: black;
     float: right;
     margin-left: 5px;
 }

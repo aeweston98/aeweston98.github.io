@@ -23,7 +23,7 @@
                     <li><a href="resume/AnthonyWestonResume.pdf" target="_blank"">Resume</a></li>
                     <li><a href="work.html">Work Experience</a></li>
                     <li><a class="active" href="projects.html">Projects</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <!--<li><a href="contact.html">Contact</a></li>-->
                 </ul>
             </div>
         </div>
@@ -33,37 +33,37 @@
     <div class="block">
       <h3>Mozilla Servo Open Source Contributor</h3>
       <h4>March 2018 - Present</h4>
-      <p></p>
+      <p>After learning the fundamentals of Rust while working on some personal projects, I decided to get involved with Rust's amazing open source community by contributing to Mozilla's Servo project. This has been a great experience that has led me to learn more about Rust as a language and gain experience working on a prototype browser engine! The first feature I worked on was to update Servo's memory profiling to accurately measure the heap usage of the JavaScript Document Object Model for each loaded webpage. To achieve this I updated the Rust to C++ Foreign Function Interface, to allow use of SpiderMonkey API to measure DOM objects. This improved the accuracy of memory reporting for DOM objects by 33% and my contribution was featured as a Noteable Addition in <a href="https://blog.servo.org/2018/04/02/twis-110/">This Week in Servo</a>. I am currently working on implementing a <a href="https://github.com/servo/servo/issues/20461">compiler plugin</a> which parses WebIDL files to verify the inheritance of DOM objects.
     </div>
     
 
     <div class="block">
       <h3>Spotify User Data Graph</h3>
       <h4>February 2018 - Present</h4>
-      <p></p>
+      <p>I am very interested in graph databases and how graph structures can be used to capture relationships in data. In an effort to develop a graph which could lookup both nodes and edges in constant time, I developed my own implementation using a hybrid indexing approach. I ran some basic benchmarking tests on my structure and showed that for a graph with 100 up to ~3000 nodes and edges between every node the time required for each operation was approximately constant (the upper bound is due to memory restrictions on my laptop). I continue to explore this area, and I am going to use the graph to encapsulate proximity of play relationships for Spotify songs. I have developed a basic clustering algorithm which groups songs based on the weightings of edges with other songs in the group. I am currently working on improving this algorithm and converting it to be multithreaded. I would also like to develop more features for the graph such as caching clusters. You can check out the project on <a href="https://github.com/aeweston98/kg-service">Github</a>.</p>
     </div>
 
 
     <div class="block">
       <h3>DoppelGallery - Hack the North 2017 Winner!</h3>
       <h4>September 2017</h4>
-      <p></p>
+      <p>I worked as part of a team of four at Hack the North to develop DoppelGallery, a web app which matches your face to people in historical paintings and photographs. I worked on the selection of the facial recognition API and the backend, using CockroachDB to store image data for model training and the web app. You can check out the project on <a href="https://devpost.com/software/doppel-gallery">DevPost</a> and <a href="https://github.com/descrip/doppelgallery">GitHub</a>.</p>
     </div>
 
 
     <div class="block">
       <h3>Waterloo Hyperloop Team - Embedded Systems</h3>
       <h4>September 2016 - February 2017</h4>
-      <p></p>
+      <p>I worked on the Embedded Systems subteam of the Waterloo Hyperloop Competition design team. I developed on various components to transmit sensor data from the pod to a central backend. I reduced message latency by 80% in an MQTT service which ran on a Raspberry Pi and also helped implement the interface for recieving sensor data from a microcontroller.</p>
     </div>
 
-
+    <!--
     <div class="block">
       <h3>Monte Carlo Simulations</h3>
       <h4>February 2016 - August 2016</h4>
       <p></p>
     </div>
-
+    -->
 </body>
 
 </html>

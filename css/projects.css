@@ -49,46 +49,6 @@ p {
     margin-left: 25px;
 }
 
-button {
-    font-family: georgia;
-    font-size: 20px;
-    color: black;
-}
-.accordion {
-    cursor: pointer;
-    padding: 18px;
-    width: 80%;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.4s;
-    margin-left:10%;
-    margin-right:10%;
-}
-
-.accordion:hover {
-    color: blue;
-}
-
-/* Style the accordion panel. Note: hidden by default */
-.panel {
-    width: 76%;
-    padding: 0 18px;
-    background-color: white;
-    display: none;
-    overflow: hidden;
-    margin-left:12%;
-    margin-right:12%;
-}
-
-.accordion:after {
-    content: '\02795'; /* Unicode character for "plus" sign (+) */
-    font-size: 13px;
-    color: black;
-    float: right;
-    margin-left: 5px;
-}
-
 .block p {
     width: 80%;
     margin-left:10%;

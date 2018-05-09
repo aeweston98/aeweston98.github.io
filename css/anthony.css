@@ -8,7 +8,7 @@ h1 {
     text-align: center;
     font-size: 50px;
 }
-
+/*
 p {
     font-size: 20px;
     float: right;
@@ -17,7 +17,7 @@ p {
     margin-right: 50px;
     margin-left: 25px;
 }
-
+*/
 img {
 	float: left;
 	margin-top: 25px;
@@ -27,7 +27,7 @@ img {
 }
 
 section.main-content{
-	column-count: 2;
+	/*column-count: 2;*/
 }
 
 ul.topnav {
@@ -60,4 +60,23 @@ ul.topnav {
 
 .topnav a.active {
     color: rgb(14,68,183);
+}
+
+p {
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 25px;
+}
+
+.block p {
+    width: 80%;
+    margin-left:10%;
+    margin-right:10%;
+        margin-top:8px;
+    padding: 0 18px;
+    background-color: white;
+    font-size: 17px;
+
 }
